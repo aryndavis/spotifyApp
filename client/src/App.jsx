@@ -15,7 +15,7 @@ class App extends Component {
       .catch(err => err)
   }
 
-  componentWillMount () {
+  componentDidMount () {
     this.callAPI()
   }
   render () {
